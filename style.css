@@ -202,3 +202,42 @@ button {
     font-weight: 800;
     text-shadow: 0.5px 0.5px 0.5px red;
 }
+
+
+/* insta_section styles */
+#insta_section{
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+}
+
+.insta_header{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.insta_header h1{
+  text-shadow: 0.5px 0.5px 0.5px black;
+}
+.insta_header p{
+  padding: 0 360px;
+  font-size: small;
+  line-height: 20px;
+}
+
+.insta_flower_parent_box{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.insta_flower_box{
+  width: 18vw;
+  height: 42vh;
+}
+.insta_flower_box img{
+  width: 18vw;
+  box-shadow: 0 4px 6px -1px black, 0 2px 4px -2px black;
+}
