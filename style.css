@@ -18,6 +18,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  gap: 1.3rem;
 }
 .header_box1 {
   height: 70vh;
@@ -35,6 +36,11 @@
 p,
 button {
   margin-top: 2rem;
+}
+.header_box1 p{
+    font-size: small;
+    padding-right: 4rem;
+    line-height: 20px;
 }
 
 .btn {
@@ -80,6 +86,8 @@ button {
 }
 .frature_heading h2 {
   font-weight: 800;
+  text-shadow: 1px 1px 1px black;
+  font-size: x-large;
 }
 .frature_heading p {
   font-size: small;
