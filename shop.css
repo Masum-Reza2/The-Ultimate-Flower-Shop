@@ -12,6 +12,7 @@
 
 /* header section starts here */
 .shop_Headline {
+    padding: 1rem;
   text-align: center;
   text-shadow: 1px 1px 1px black;
 }
@@ -21,6 +22,7 @@
     margin-top: 50px;
 }
 .flower_container {
+    margin-top: 4rem;
     height: 60vh;
     display: flex;
     flex-direction: row;
@@ -37,6 +39,10 @@
     justify-content: center;
     gap: 0.68rem;
     box-shadow: 0 4px 6px -1px black, 0 2px 4px -2px black;
+    cursor: pointer;
+}
+.flower_item:hover{
+    background-color: pink;
 }
 .flower_item img{
     width: 22vw;
@@ -45,3 +51,48 @@
 .flower_item p{
     padding-left: 10px;
 }
+.flower_item h3{
+    width: 22vw;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 1px 2px 3px black;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px red;
+}
+
+
+/* footer section styles start here */
+#footer_section{
+    margin-top: 4rem;
+    background-color: black;
+    color: white;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  #footer_section h1{
+    font-weight: 800;
+  }
+  .footer_desc_para{
+    margin-top: 15px;
+    font-size: small;
+    padding: 0 400px;
+    color: rgba(255, 255, 255, 0.90);
+  }
+  .footer_span{
+    color: #E55473;
+  }
+  
+  .copyright_warn{
+    font-size: x-small;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.40);
+  }
+
+  .bug{
+    margin-top: 4rem;
+  }
+  /* footer section design completed */
