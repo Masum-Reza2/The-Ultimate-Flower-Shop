@@ -7,6 +7,7 @@
 }
 .color_primary {
   color: #27272799;
+  font-weight: 600;
 }
 
 /* header_section styles */
@@ -30,7 +31,9 @@
   font-weight: 800;
   line-height: normal;
 }
-.header_box1 h1,p,button{
+.header_box1 h1,
+p,
+button {
   margin-top: 2rem;
 }
 .header_box1 button {
@@ -40,16 +43,16 @@
   font-size: 1rem;
   border-radius: 6px;
 }
-.btn{
-    width: 100px;
-    height: 40px;
-    cursor: pointer;
-    box-shadow: 1px 2px 3px black;
-    font: bold;
+.btn {
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  box-shadow: 1px 2px 3px black;
+  font: bold;
 }
-.btn:hover{
-    color: #e55473;
-    background-color: white;
+.btn:hover {
+  color: #e55473;
+  background-color: white;
 }
 
 .header_box2 {
@@ -59,67 +62,100 @@
   display: flex;
   /* align-items: end; */
 }
-.header_box2 img{
-    position: relative;
-    bottom: 0;
-    padding-top: 1rem;
+.header_box2 img {
+  position: relative;
+  bottom: 0;
+  padding-top: 1rem;
 }
 /* header section styles completed */
 
 /* features_section styles */
-#features_section{
-    height: 100vh;
-    padding-top: 120px;
+#features_section {
+  height: 100vh;
+  padding-top: 120px;
 }
-.frature_heading{
-    width: 40vw;
-    margin: auto;
-    text-align: center;
+.frature_heading {
+  width: 40vw;
+  margin: auto;
+  text-align: center;
 }
-.frature_heading h2{
-    font-weight: 800;
+.frature_heading h2 {
+  font-weight: 800;
 }
-.frature_heading p{
-    font-size: small;
-    padding: 0 40px;
+.frature_heading p {
+  font-size: small;
+  padding: 0 40px;
 }
 
-.show_flower{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
+.show_flower {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
-.flower_box{
-    margin-top: 20px;
-    height: 60vh;
-    width: 25vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: end;
-    gap: 20px;
-    border-top-left-radius: 150px;
-    border-top-right-radius: 150px;
+.flower_box {
+  margin-top: 20px;
+  height: 60vh;
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  gap: 20px;
+  border-top-left-radius: 150px;
+  border-top-right-radius: 150px;
 }
-.flower_box img{
-    width: 15vw;
-    position: relative;
-    bottom: 0;
+.flower_box img {
+  width: 15vw;
+  position: relative;
+  bottom: 0;
 }
 
 /* fixing background color of images */
-.img_bg_one{
-    background-color: #A7216226;
+.img_bg_one {
+  background-color: #a7216226;
 }
-.img_bg_two{
-    background-color: #0597A026;
+.img_bg_two {
+  background-color: #0597a026;
 }
-.img_bg_three{
-    background-color: #477D1126;
+.img_bg_three {
+  background-color: #477d1126;
 }
-.show_flower h4{
-    margin-top: 20px;
-    text-align: center;
-    text-decoration: underline;
+.show_flower h4 {
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: underline;
+  color: #272727;
+  font-weight: 700;
 }
+/* features esction completed */
+
+/* customar_care_section starts form here */
+#customar_care_section{
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.customer_care_parent{
+    height: 36vh;
+    width: 78vw;
+    background-color: #2727270D;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.customer_care_parent img{
+    height: 5vw;
+}
+.customer_inner_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.customer_inner_div p{
+    margin-top: 16px;
+}
+/* customer care section design completed */
