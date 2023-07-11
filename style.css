@@ -317,7 +317,8 @@ button {
 
 /* my own section design */
 #optional_section{
-  height: 75vh;
+  padding-top: 4rem;
+  height: 55vh;
   display: flex;
   align-items: center;
   justify-content: center;
