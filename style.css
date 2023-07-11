@@ -30,21 +30,26 @@
   font-weight: 800;
   line-height: normal;
 }
-.header_box1 h1,
-p,
-button {
+.header_box1 h1,p,button{
   margin-top: 2rem;
 }
 .header_box1 button {
-  width: 100px;
-  height: 40px;
   background-color: #e55473;
   color: white;
   border: 0;
   font-size: 1rem;
   border-radius: 6px;
 }
-
+.btn{
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    box-shadow: 1px 2px 3px black;
+}
+.btn:hover{
+    color: #e55473;
+    background-color: white;
+}
 
 .header_box2 {
   /* background-color: blue; */
@@ -59,3 +64,4 @@ button {
     padding-top: 1rem;
 }
 /* header section styles completed */
+
