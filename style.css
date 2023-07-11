@@ -134,6 +134,7 @@ button {
   text-decoration: underline;
   color: #272727;
   font-weight: 700;
+  cursor: pointer;
 }
 /* features esction completed */
 
