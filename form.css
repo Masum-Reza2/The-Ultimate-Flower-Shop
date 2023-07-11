@@ -1,21 +1,61 @@
+/* resetting the margin and padding */
 * {
-  margin: 0;
-  padding: 0;
-}
+    margin: 0;
+    padding: 0;
+  }
+  
+  .video-background {
+    position: absolute;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    overflow: hidden;
+  }
+  
+  .video-background video {
+    width: 100vw;
+  }
 
-.video-background {
-  position: absolute;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-  overflow: hidden;
-}
+  #form_header{
+    height: 10vh;
+    text-align: center;
+    padding-top: 1rem;
+    text-shadow: 1px 1px 1px red;
+  }
 
-.video-background video {
-  width: 100vw;
-}
-
+  /* main section styles */
+  .sign_up_parent{
+    /* background-color: red; */
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .sign_up_parent h2{
+    text-shadow: 1px 1px 1px red;
+  }
+  .myform{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .myform input{
+    width: 20vw;
+    height: 5vh;
+    border-radius: 5px;
+    /* border: 0; */
+    text-align: center;
+    background-color: transparent;
+    /* color: white; */
+    /* font-weight: bold; */
+  }
+  .myform input::placeholder{
+    color: white;
+    text-shadow: 0.5px 0.5px 0.5px red;
+  }
