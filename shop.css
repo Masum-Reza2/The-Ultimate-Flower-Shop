@@ -1,0 +1,47 @@
+/* resetting margin paddin etc */
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+.color_primary {
+  color: #27272799;
+  font-weight: 600;
+}
+
+/* header section starts here */
+.shop_Headline {
+  text-align: center;
+  text-shadow: 1px 1px 1px black;
+}
+
+/* main section styles */
+#main_section{
+    margin-top: 50px;
+}
+.flower_container {
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.flower_item {
+    width: 22vw;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.68rem;
+    box-shadow: 0 4px 6px -1px black, 0 2px 4px -2px black;
+}
+.flower_item img{
+    width: 22vw;
+    /* height: 50vh; */
+}
+.flower_item p{
+    padding-left: 10px;
+}
