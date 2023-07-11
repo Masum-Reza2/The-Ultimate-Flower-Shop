@@ -5,3 +5,43 @@
     padding: 0;
     font-family: 'Ubuntu',sans-serif;
 }
+.color_primary{
+    color: #27272799;
+}
+
+/* header_section styles */
+#header_section{
+    height: 95vh;
+    background-color: #E554731A;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.header_box1{
+    height: 70vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header_box1 h1{
+    font-size: 50px;
+}
+.header_box1 h1,p,button{
+    margin-top: 2rem;
+}
+.header_box1 button{
+    width: 100px;
+    height: 40px;
+    background-color: #E55473;
+    color: white;
+    border: 0;
+    font-size: 1rem;
+    border-radius: 6px;
+}
+.header_box2{
+    background-color: blue;
+    height: 85vh;
+    width: 35vw;
+}
