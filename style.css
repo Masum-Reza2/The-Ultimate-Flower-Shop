@@ -65,3 +65,43 @@
 }
 /* header section styles completed */
 
+/* features_section styles */
+#features_section{
+    height: 100vh;
+    /* background-color: red; */
+    padding-top: 120px;
+}
+.frature_heading{
+    width: 40vw;
+    margin: auto;
+    text-align: center;
+}
+.frature_heading p{
+    font-size: small;
+}
+
+.show_flower{
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.flower_box{
+    margin-top: 50px;
+    height: 60vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    gap: 1rem;
+}
+.flower_box h4{
+    text-decoration: underline;
+}
+.flower_box img{
+    width: 15vw;
+    position: relative;
+    bottom: 0;
+}
