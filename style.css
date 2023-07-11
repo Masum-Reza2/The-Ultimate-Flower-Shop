@@ -220,7 +220,7 @@ button {
   text-align: center;
 }
 .insta_header h1{
-  text-shadow: 0.5px 0.5px 0.5px black;
+  text-shadow: 1px 1px 1px black;
 }
 .insta_header p{
   padding: 0 360px;
@@ -241,3 +241,44 @@ button {
   width: 18vw;
   box-shadow: 0 4px 6px -1px black, 0 2px 4px -2px black;
 }
+/* insta section design complete here */
+
+/* latest_deal_section starts here */
+#latest_deal_section{
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.latest_section_info{
+  height: 45vh;
+  width: 76vw;
+  background-image: url('./bg-img/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.latest_sec_header h1{
+  text-shadow: 1px 1px 1px black;
+}
+.latest_sec_header p{
+  font-size: small;
+  text-align: center;
+  margin-top: 12px;
+}
+.latest_deal_inputs input[type="email"]{
+  background-color: white;
+  width: 38vw;
+  height: 7vh;
+  border: 0;
+  border-radius: 5px;
+  margin-right: 0.6rem;
+  padding-left: 1rem;
+  font-size: 16px;
+  font-weight: 400;
+}
+/* latest deal section design completed */
