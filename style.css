@@ -36,19 +36,18 @@ p,
 button {
   margin-top: 2rem;
 }
-.header_box1 button {
-  background-color: #e55473;
-  color: white;
-  border: 0;
-  font-size: 1rem;
-  border-radius: 6px;
-}
+
 .btn {
   width: 100px;
   height: 40px;
   cursor: pointer;
   box-shadow: 1px 2px 3px black;
   font: bold;
+  background-color: #e55473;
+  color: white;
+  border: 0;
+  font-size: 1rem;
+  border-radius: 6px;
 }
 .btn:hover {
   color: #e55473;
@@ -131,31 +130,65 @@ button {
 /* features esction completed */
 
 /* customar_care_section starts form here */
-#customar_care_section{
-    height: 55vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#customar_care_section {
+  height: 55vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.customer_care_parent{
-    height: 36vh;
-    width: 78vw;
-    background-color: #2727270D;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
+.customer_care_parent {
+  height: 36vh;
+  width: 78vw;
+  background-color: #2727270d;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
 }
-.customer_care_parent img{
-    height: 5vw;
+.customer_care_parent img {
+  height: 5vw;
 }
-.customer_inner_div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.customer_inner_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.customer_inner_div p{
-    margin-top: 16px;
+.customer_inner_div p {
+  margin-top: 16px;
 }
 /* customer care section design completed */
+
+/* hot_deal_section starts here */
+#hot_deal_section {
+  background-color: #e554730d;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+.hot_deal_box {
+  height: 45vh;
+  width: 35vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.hot_deal_box p{
+    font-size: small;
+}
+.hot_deal_box2 {
+  height: 48vh;
+  width: 20vw;
+}
+.hot_deal_box2 img{
+    height: 48vh;
+}
+.radish_span{
+    color: #E55473;
+    font-weight: 800;
+}
