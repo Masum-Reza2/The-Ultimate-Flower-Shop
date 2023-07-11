@@ -45,6 +45,7 @@
     height: 40px;
     cursor: pointer;
     box-shadow: 1px 2px 3px black;
+    font: bold;
 }
 .btn:hover{
     color: #e55473;
@@ -68,7 +69,6 @@
 /* features_section styles */
 #features_section{
     height: 100vh;
-    /* background-color: red; */
     padding-top: 120px;
 }
 .frature_heading{
@@ -76,32 +76,50 @@
     margin: auto;
     text-align: center;
 }
+.frature_heading h2{
+    font-weight: 800;
+}
 .frature_heading p{
     font-size: small;
+    padding: 0 40px;
 }
 
 .show_flower{
-    /* height: 100vh; */
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
 }
 .flower_box{
-    margin-top: 50px;
+    margin-top: 20px;
     height: 60vh;
     width: 25vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: end;
-    gap: 1rem;
-}
-.flower_box h4{
-    text-decoration: underline;
+    gap: 20px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
 }
 .flower_box img{
     width: 15vw;
     position: relative;
     bottom: 0;
+}
+
+/* fixing background color of images */
+.img_bg_one{
+    background-color: #A7216226;
+}
+.img_bg_two{
+    background-color: #0597A026;
+}
+.img_bg_three{
+    background-color: #477D1126;
+}
+.show_flower h4{
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: underline;
 }
