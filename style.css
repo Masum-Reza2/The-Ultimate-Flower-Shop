@@ -200,4 +200,5 @@ button {
 .radish_span{
     color: #E55473;
     font-weight: 800;
+    text-shadow: 0.5px 0.5px 0.5px red;
 }
