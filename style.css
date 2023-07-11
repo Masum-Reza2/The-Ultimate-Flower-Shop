@@ -282,3 +282,34 @@ button {
   font-weight: 400;
 }
 /* latest deal section design completed */
+
+/* footer section styles start here */
+#footer_section{
+  background-color: black;
+  color: white;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#footer_section h1{
+  font-weight: 800;
+}
+.footer_desc_para{
+  margin-top: 15px;
+  font-size: small;
+  padding: 0 400px;
+  color: rgba(255, 255, 255, 0.90);
+}
+.footer_span{
+  color: #E55473;
+}
+
+.copyright_warn{
+  font-size: x-small;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.40);
+}
+/* footer section design completed */
