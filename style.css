@@ -350,3 +350,10 @@ button {
   color: #e55473;
   background-color: white;
 }
+.shop_btn_bug{
+  margin-top: 2rem;
+}
+.shop_btn_bug2{
+  margin-top: 2rem;
+  width: 6vw;
+}
